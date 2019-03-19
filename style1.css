@@ -1,0 +1,35 @@
+.container{
+    display: flex;
+    flex-direction: row;
+}
+
+.box{
+
+    border: solid;
+    padding: 0px;
+    margin: 20px;
+    overflow: auto;
+    width: 145px;
+    height: 205px;
+}
+
+.box > div { padding: 5px 12px; }
+
+.btnbox{
+
+    padding: 80px;
+    margin: 20px;
+    height: 100px;
+}
+
+.topnav {
+    margin-left: 176px;
+    display: ruby;
+}   
+
+.selected{
+    background-color: #e92929;
+    color:#fff;
+    vertical-align: middle;
+    padding: 1.5em;
+}
